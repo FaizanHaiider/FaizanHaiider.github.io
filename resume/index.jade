@@ -1,0 +1,422 @@
+//output: index.html
+doctype html
+html
+    head
+        meta(charset="utf-8")
+        title FaizanH Resume
+        meta(name="viewport" content="width=device-width,initial-scale=1")
+        link(href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css")
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"  crossorigin="anonymous")
+        link(rel="stylesheet" href="css/main.css")
+
+
+    body(data-spy="scroll" data-target="#navbar-ex")
+        div.jumbotron
+            div.container
+                h1 Faizan Haider
+                p.lead Student || Developer
+            div.overlay
+            a(href="#profile").scroll-down
+                span.glyphicon.glyphicon-chevron-down
+        nav(role="navigation").navbar.navbar-default#navbar-ex
+            div.navbar-header
+                buttom(type="button" data-toggle="collapse" data-target=".navbar-one-collapse").navbar-toggle
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+            div.collapse.navbar-collapse.navbar-one-collapse
+                ul.nav.navbar-nav
+                    li.active
+                        a(href="#profile") Profile
+                    li
+                        a(href="#experiences") Experience
+                    li
+                        a(href="#skills") Skills
+                    li
+                        a(href="#projects") Projects
+                    li
+                        a(href="#contact") Contact
+        div.whiteBG
+            div#profile.container
+                h2 Profile
+                p.lead I can do that
+                hr
+                div.row
+                    div.col-md-4
+                        h3 About Me
+                        p
+                            | I'm an experienced 4th year student with knowledge in Object Orientated Programming,
+                            | Android Development, Agile Development, and Quality Assurance.
+                            | I have a full year's experience working in a real-world environment and
+                            | worked on several projects with hundreds of users.
+                    div.col-md-4.text-center
+                        img(src="imgs/mountains.jpg")
+                    div.col-md-4.details
+                        h3 Details
+                        p
+                            strong Name:
+                        p Faizan Haider
+                        p
+                            strong Age:
+                        p 21 y/o
+                        p
+                            strong Location:
+                        p Kitchener-Waterloo, Ontario, Canada
+                hr
+                h3 Languages
+                div.row
+                    div.col-md-6
+                        ul.no-bullets.rating-sys
+                            li
+                                span.ability-title Farsi (Native Language)
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                            li
+                                span.ability-title English (Preferred Language)
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                    div.col-md-6
+                        ul.no-bullets.rating-sys
+                            li
+                                span.ability-title French (Je ne comprends pas)
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+        div#experiences.container
+            h2 Experiences
+            hr
+            h3 Employment
+            div.experiences
+                div.experience.row
+                    div.col-md-4
+                        h4 Islamic Humanitarian Services
+                        p.exp-period May 2017 - September 2017
+
+                    div.col-md-8
+                        p
+                            strong Technology Director
+                        p
+                            | In my second year, I was responsible for modernizing the organization's inventory from old-school VHSs and cassettes to DVDs and MP3 files. I also headed a non-technical computer security campaign throughout my employment, teaching employees about phishing viruses while monitoring computers to ensure their privacy.
+                div.experience.row
+                    div.col-md-4
+                        h4 Islamic Humanitarian Services
+                        p.exp-period May 2016 - September 2016
+
+                    div.col-md-8
+                        p
+                            strong Technology Director
+                        p
+                            | In my first year, I created the foundation for the organization's library software. This involved taking inventory of all the books, creating base classes for each type of book, and creating a HashMap (in Java) to search for said books.
+                            |  I was also responsible for several other high-school students which I organized to complete technical and non-technical day-to-day tasks.
+                div.experience.row
+                    div.col-md-4
+                        h4 Economical Insurance
+                        p.exp-period May 2015 - September 2015
+
+                    div.col-md-8
+                        p
+                            strong Student Test Analyst
+                        p Using Java, Selenium, and JUnit, I was tasked to develop test scripts for several of the company's online services. Test ranged from unit testing to system testing and also involved setting up a Jenkins automated service to run existing scripts over night and after all new site updates.
+            hr
+            h3 Education
+            div.school
+                div.experience.row
+                    div.col-md-4
+                        h4 University of Guelph
+                        p.exp-period September 2014 - Present Day
+
+                    div.col-md-8
+                        p
+                            strong Bachelor of Computing
+                        p
+                            | The education took a board approach to computers, teaching a wide range of subjects from
+                            i   Software Engineering
+                            |  and
+                            i   Data Structures
+                            |  to
+                            i   Computers and Society
+                            | . This board approach allowed students to learn both theory and application of computing while covering both abstract and concrete knowledge.
+                            |  The projects were mainly in C but several other projects involved Java, Python, PHP, and MySQL.
+
+        div.whiteBG
+            div#skills.container
+                h2 Skills
+                p.lead Based on projects and work experience
+                hr
+                div.row
+                    div.col-md-6
+                        ul.no-bullets.rating-sys
+                            li
+                                span.ability-title C
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                            li
+                                span.ability-title Java
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                            li
+                                span.ability-title Agile Development
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+
+                            li
+                                span.ability-title Python
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                            li
+                                span.ability-title Selenium
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                            li
+                                span.ability-title Command Line Interface
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                            li
+                                span.ability-title HTML/5
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                            li
+                                span.ability-title SASS/SCSS
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                    div.col-md-6
+                        ul.no-bullets.rating-sys
+                            li
+                                span.ability-title JUnit
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                            li
+                                span.ability-title CSS 3
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                            li
+                                span.ability-title JavaScript
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                            li
+                                span.ability-title Bootstrap Framework
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                            li
+                                span.ability-title C++
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                            li
+                                span.ability-title PHP
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                            li
+                                span.ability-title MySQL
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                div.text-center.git-link
+                    p Projects can be found on my Github.
+                    a(href="https://github.com/" target="_blank").btn.btn-primary Github
+                hr
+                h3 Tools
+                div.row
+                    div.col-md-6
+                        ul.no-bullets.rating-sys
+                            li
+                                span.ability-title Github (5+ years)
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                            li
+                                span.ability-title Android Studios
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                            li
+                                span.ability-title Microsoft Office (6+ years)
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                            li
+                                span.ability-title Atom Text Editor (4+ years)
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                            li
+                                span.ability-title Google Chrome (6+ years)
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                            li
+                                span.ability-title Jira (2+ years)
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                    div.col-md-6
+                        ul.no-bullets.rating-sys
+                            li
+                                span.ability-title Windows OS (6+ years)
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                            li
+                                span.ability-title APIs (2+ years)
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                            li
+                                span.ability-title Linux OS (2+ years)
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                            li
+                                span.ability-title Jenkins (1 years)
+                                span.ability-score
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star.filled
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+
+        div#projects.container
+            h2 Projects
+            p.lead Its not much but its something
+            hr
+            div.row
+                div.col-md-6.col-sm-12.col-xs-12
+                    figure.effect
+                        img(src="imgs/smmry_bot_img.PNG" alt="Bots")
+                        figcaption
+                            h3 Reddit Bots
+                            p Created several web-bots to serve moderators of website forums
+                            p
+                                strong Tags:
+                                |  Development, Design, Python, API
+                div.col-md-6.col-sm-12.col-xs-12
+                    figure.effect
+                        img(src="imgs/smmry_bot_img.PNG" alt="Bots")
+                        figcaption
+                            h3 Reddit Bots
+                            p Created several web-bots to serve moderators of website forums
+                            p
+                                strong Tags:
+                                |  Development, Design, Python, API
+        div.greyBG
+            div#contact.container
+                h2 Contact Me
+                hr
+                div.row
+                    div.col-md-6
+                        ul.no-bullets
+                            li
+                                a(href="https://www.linkedin.com/in/faizan-haider-575b86b1/" target="_blank") www.linkedin.com/in/faizan-haider
+                                    span.icon.icon-linkedin
+                            li
+                                a (+1 226 792 3973)
+                                    span.icon.icon-phone
+                    div.col-md-6
+                        ul.no-bullets
+                            li
+                                a faizanhaider12@gmail.com
+                                    span.icon.icon-gmail_at
+                hr
+
+
+
+        script(type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
+        script(type="text/javascript" src="js/functions.js")
+        script(type="text/javascript" src="js/bootstrap.min.js")
