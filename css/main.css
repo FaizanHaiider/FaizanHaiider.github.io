@@ -188,7 +188,8 @@ ul.no-bullets {
   margin-bottom: 30px; }
 #projects figure {
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  height: 255px; }
   #projects figure h3 {
     color: #fff;
     font-weight: 600;
