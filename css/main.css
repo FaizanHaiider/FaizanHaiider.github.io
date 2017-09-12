@@ -198,8 +198,8 @@ ul.no-bullets {
     display: inline-block;
     margin: 0px; }
   #projects figure img {
-    width: 110%;
-    height: 110%; }
+    height: 110%;
+    width: 110%; }
   #projects figure figcaption {
     padding: 20px 30px;
     position: absolute;
